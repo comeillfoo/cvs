@@ -1,0 +1,6 @@
+# action.yml
+name: 'cvs-build'
+description: 'Build CV and save it to the artifacts'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
